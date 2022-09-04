@@ -1,0 +1,55 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+
+}
+
+.navbar {
+  background-color: rgba(241, 243, 255, 1)
+}
+
+.carSearch {
+  width: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .subtitle {
+    width: 100%;
+  }
+
+  #OurServices {
+    margin-top: 25px;
+
+  }
+
+  #Testimonial {
+    width: 100%;
+    height: auto;
+  }
+
+  #WhyUs {
+    width: 90%;
+  }
+
+  #SecondBanner {
+    width: 100%;
+
+  }
+
+  #Footer {
+    width: 90%;
+  }
+
+  .offcanvas {
+    max-width: 50%;
+  }
+
+}
